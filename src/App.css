@@ -302,6 +302,9 @@
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   width: 35px;
   border-end-end-radius: 2px solid;
+  height: 75vh;
+  z-index: 3;
+
 }
 
 /* Profile Image */
@@ -373,6 +376,7 @@
   flex: 1;
   padding: 15px;
   background-color: #ecf0f1;
+  /* width: 100%; */
 }
 
 .read-more {
@@ -533,4 +537,33 @@ ul {
   font-size: bold 18px;
   color: black;
 
+}
+
+.overview-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+
+  z-index: -1;
+
+}
+
+.overview {
+  margin-left: 5rem;
+
+}
+
+.sub-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: space-between;
+
+}
+
+.sub-item {
+  cursor: pointer;
+  padding: 1rem;
 }
