@@ -1,0 +1,235 @@
+.investment-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 600PX;
+    margin: 0 auto;
+    height: 100vh;
+    min-width: 350px;
+}
+
+.price-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.price {
+    text-align: center;
+}
+
+.price h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.price p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.buy-button,
+.sell-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-button {
+    background-color: #4caf50;
+    color: white;
+}
+
+.sell-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.history-section {
+    margin-bottom: 20px;
+}
+
+.history-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.history-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.history-item .dot {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+    /* margin-right: px; */
+}
+
+.history-item .dot.bought {
+    background-color: #4caf50;
+}
+
+.history-item .dot.sold {
+    background-color: #f44336;
+}
+
+.history-item .details p,
+.history-item .price-details p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.view-full {
+    background: none;
+    color: black;
+    border: none;
+    padding: 0;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.invest-idea {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 15px;
+}
+
+.invest-idea h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.idea-card {
+    padding: 15px;
+    background: #f8f8f8;
+    border-radius: 5px;
+}
+
+.idea-card h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.idea-card .time {
+    font-size: 12px;
+    color: #999;
+}
+
+.price-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* Align items to the top */
+    gap: 10px;
+    /* Add spacing between the two columns */
+}
+
+.price {
+    text-align: center;
+    /* Center-align the content */
+    display: flex;
+    flex-direction: column;
+    /* Stack the elements vertically */
+    align-items: center;
+    /* Center content horizontally */
+}
+
+.price h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.price p {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+    /* Add some space between the value and the button */
+}
+
+.buy-button,
+.sell-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.buy-button {
+    background-color: #4caf50;
+    color: white;
+}
+
+.sell-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.price-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* Align items to the top */
+    gap: 20px;
+    /* Add spacing between the two columns */
+}
+
+.price {
+    text-align: center;
+    /* Center-align the content */
+    display: flex;
+    flex-direction: column;
+    /* Stack the elements vertically */
+    align-items: center;
+    /* Center content horizontally */
+}
+
+.subtext {
+    font-size: 10px;
+    /* Smaller font size for subtext */
+    color: #666;
+    /* Lighter color for subtext */
+    margin-bottom: 5px;
+}
+
+.value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin: 10px 0;
+    /* Space between the value and the button */
+}
+
+.buy-button,
+.sell-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-button {
+    background-color: #4caf50;
+    color: white;
+}
+
+.sell-button {
+    background-color: #f44336;
+    color: white;
+}

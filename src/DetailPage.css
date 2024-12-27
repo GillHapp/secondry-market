@@ -1,0 +1,145 @@
+/* General Page Styles */
+.detail-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f8;
+  min-height: 100vh;
+}
+
+/* Back Button Styles */
+.back-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+
+  font-weight: bold;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+/* Container Layout */
+.detail-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Graph Section */
+.graph-section {
+  flex: 2 1 60%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.graph-placeholder {
+  height: 300px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #6c757d;
+}
+
+/* Info Section */
+.info-section {
+  flex: 1 1 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Buy/Sell Section */
+.buy-sell-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.trade-box {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.trade {
+  flex: 1;
+}
+
+.trade input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.trade button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.trade button:hover {
+  background-color: #218838;
+}
+
+/* Small Cards Section */
+.small-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.small-card {
+  flex: 1 1 48%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+}
+
+.small-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.small-card h3 {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .detail-container {
+    flex-direction: column;
+  }
+
+  .graph-section {
+    order: 1;
+  }
+
+  .info-section {
+    order: 2;
+  }
+}

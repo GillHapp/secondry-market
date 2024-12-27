@@ -1,0 +1,126 @@
+
+/*
+
+CSS in App.css
+.dashboard {
+  display: flex;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Left Panel */
+.left-panel {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    width: 80px;
+    padding: 10px;
+    min-height: 100vh;
+  }
+  .menu-icon {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  .menu li {
+    margin: 20px 0;
+    text-align: center;
+    cursor: pointer;
+  }
+  .menu li:hover {
+    color: #1abc9c;
+  }
+  
+  /* Main Content */
+  .main-content {
+    flex: 2;
+    padding: 20px;
+  }
+  .stock-header h1 {
+    margin: 0;
+    color: #2c3e50;
+  }
+  .sector {
+    color: #7f8c8d;
+    font-size: 14px;
+  }
+  .performance strong {
+    color: #27ae60;
+  }
+  
+  .overview {
+    margin-top: 20px;
+  }
+  .stock-chart img {
+    width: 100%;
+    height: auto;
+  }
+  .positive {
+    color: #27ae60;
+    font-weight: bold;
+  }
+  
+  .news {
+    margin-top: 20px;
+  }
+  .news ul {
+    list-style: none;
+    padding: 0;
+  }
+  .news li {
+    margin: 10px 0;
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom: 5px;
+  }
+  
+  /* Right Sidebar */
+  .right-sidebar {
+    background-color: #ecf0f1;
+    padding: 20px;
+    flex: 1;
+  }
+  .stock-actions {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .buy-sell button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .buy {
+    background-color: #27ae60;
+    color: #fff;
+  }
+  .sell {
+    background-color: #c0392b;
+    color: #fff;
+  }
+  .history ul {
+    list-style: none;
+    padding: 0;
+  }
+  .history li {
+    margin: 10px 0;
+  }
+  .invest-idea {
+    text-align: center;
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .invest-idea h4 {
+    margin: 0;
+  }
+  .invest-idea span {
+    display: block;
+    margin-top: 10px;
+  }
+  
