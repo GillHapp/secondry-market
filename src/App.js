@@ -129,7 +129,6 @@ function App() {
               <div className="graph-section">
                 <div className="navbar">
                   <h1>{tokenDetails.token} Price Chart</h1>
-
                   <div className="price-info">
                     <div className="price-item">
                       <div className="dominant-text" style={{ color: 'green' }}>
@@ -205,6 +204,18 @@ function App() {
                   </div>
 
                   <div className="graph-placeholder">
+                    <div className="chart-header">
+                      <div className="overview-title">
+                        <strong>Overview</strong>
+                      </div>
+                      <div className="chart-sub2">
+                        <ul>Day</ul>
+                        <ul>Week</ul>
+                        <ul>Month</ul>
+                        <ul>Year</ul>
+                        <ul>All time</ul>
+                      </div>
+                    </div>
                     <Line data={chartData} />
                     <div className="news-section">
                       <div className="read-once">

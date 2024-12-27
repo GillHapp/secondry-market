@@ -10,7 +10,6 @@ function StockDashboard() {
         <nav className="menu">
           <ul>
             <li>Secondary Market</li>
-            
           </ul>
         </nav>
       </aside>

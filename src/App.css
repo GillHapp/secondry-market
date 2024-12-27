@@ -302,7 +302,7 @@
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   width: 35px;
   border-end-end-radius: 2px solid;
-  height: 75vh;
+  height: 80vh;
   z-index: 3;
 
 }
@@ -566,4 +566,57 @@ ul {
 .sub-item {
   cursor: pointer;
   padding: 1rem;
+}
+
+.chart-header {
+  display: flex;
+  /* Use flexbox to arrange children horizontally */
+  justify-content: space-between;
+  /* Add space between "Overview" and the nav items */
+  align-items: center;
+  /* Align content vertically in the center */
+  padding: 1rem;
+  /* Add some padding */
+  background-color: #f8f9fa;
+  /* Optional: Background color */
+  border-bottom: 1px solid #ddd;
+  /* Optional: Add a border for separation */
+}
+
+.overview-title {
+  font-size: 1.5rem;
+  /* Larger font size for the "Overview" title */
+  font-weight: bold;
+}
+
+.chart-sub2 {
+  display: flex;
+  /* Use flexbox to align nav items horizontally */
+  gap: 1rem;
+  /* Add spacing between nav items */
+  list-style: none;
+  /* Remove bullets from <ul> items */
+  padding: 0;
+  /* Remove default padding */
+  margin: 0;
+  /* Remove default margin */
+}
+
+.chart-sub2 ul {
+  cursor: pointer;
+  /* Change cursor to pointer for clickable items */
+  font-size: 1rem;
+  color: #333;
+  /* Optional: Text color */
+  padding: 0.5rem 1rem;
+  /* Add padding for clickable area */
+  border-radius: 4px;
+  /* Optional: Rounded corners for nav items */
+  transition: background-color 0.3s ease;
+  /* Add a hover effect */
+}
+
+.chart-sub2 ul:hover {
+  background-color: #e0e0e0;
+  /* Change background color on hover */
 }
